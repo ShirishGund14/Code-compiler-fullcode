@@ -1,0 +1,92 @@
+/* Container styles */
+.allsaved-codes-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Code item styles */
+.code-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.code-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Code header styles */
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Title styles */
+.code-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+/* Code actions container styles */
+.code-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Edit and Delete button styles */
+.code-actions button {
+  font-size: 16px;
+  color: #125194;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.code-actions button:hover {
+  color: #0056b3;
+}
+
+/* Language styles */
+.code-language {
+  font-size: 14px;
+  color: #777777;
+}
+
+/* View Code button styles */
+.view-code-button {
+  font-size: 16px;
+  background-color: #144880;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.view-code-button:hover {
+  background-color: #0056b3;
+}
+
+/* Remove bullets from unordered lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
